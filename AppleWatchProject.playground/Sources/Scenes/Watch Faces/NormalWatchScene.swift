@@ -16,6 +16,10 @@ class NormalWatchScene: SKScene {
         backgroundImage.position =  CGPoint(x: size.width/2, y: size.height/2)
         addChild(backgroundImage)
         
+        pearLogo.size = CGSize(width: 65, height: 65)
+        pearLogo.position =  CGPoint(x: size.width/2, y: size.height * 0.75)
+        addChild(pearLogo)
+        
         secondHand.position =  CGPoint(x: size.width/2, y: size.height/2)
         addChild(secondHand)
         
@@ -25,9 +29,6 @@ class NormalWatchScene: SKScene {
         hourHand.position =  CGPoint(x: size.width/2, y: size.height/2)
         addChild(hourHand)
         
-        pearLogo.size = CGSize(width: 65, height: 65)
-        pearLogo.position =  CGPoint(x: size.width/2, y: size.height * 0.75)
-        addChild(pearLogo)
         
         
     }
