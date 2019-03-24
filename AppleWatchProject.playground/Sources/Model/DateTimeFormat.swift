@@ -243,10 +243,9 @@ public class DateTimeFormat{
         let dateFormatter = DateFormatter()
         dateFormatter.dateFormat = "hh:mm"
         
-        print(sunrise)
-        print(sunset)
+     
         let isDaytime = solar!.isDaytime
-        print(isDaytime)
+       
         
         if isDaytime == true {
             return dateFormatter.string(from: sunset!)
@@ -275,8 +274,6 @@ public class DateTimeFormat{
         let sunrise = solar!.sunrise
         let sunset = solar!.sunset
         
-        print(sunrise)
-        print(sunset)
         let isDaytime = solar!.isDaytime
         
         if isDaytime == true {

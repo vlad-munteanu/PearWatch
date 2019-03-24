@@ -84,15 +84,15 @@ public class MainViewController: UIViewController, OpenAppDelegate {
         } else if currentWFIndex == 3 {
             let scene = LargeScene(size: CGSize(width: Constants.resolution.width, height: Constants.resolution.height))
             scene.scaleMode =  .resizeFill
-           currentView.mainView.presentScene(scene)
+            currentView.mainView.presentScene(scene)
         } else if currentWFIndex == 4 {
             let scene = PhotoScene(size: CGSize(width: Constants.resolution.width, height: Constants.resolution.height))
             scene.scaleMode =  .resizeFill
             currentView.mainView.presentScene(scene)
         } else if currentWFIndex == 5 {
-            //                let scene = PhotoScene(size: CGSize(width: Constants.resolution.width, height: Constants.resolution.height))
-            //                scene.scaleMode =  .resizeFill
-            //                currentView.mainView.presentScene(scene)
+            let scene = NormalWatchScene(size: CGSize(width: Constants.resolution.width, height: Constants.resolution.height))
+            scene.scaleMode =  .resizeFill
+            currentView.mainView.presentScene(scene)
         }
     }
     

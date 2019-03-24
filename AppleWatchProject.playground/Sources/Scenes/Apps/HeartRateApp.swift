@@ -66,11 +66,11 @@ public class HeartRateApp: SKScene {
             if(randNum2 >= 1.0) {
                 minus = true
             } else {
-                randNum2 += 0.5
+                randNum2 += 0.05
             }
         } else {
             if randNum2 >= 0 {
-                randNum2 -= 0.5
+                randNum2 -= 0.05
             } else {
                 minus = false
             }
