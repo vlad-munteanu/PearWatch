@@ -8,6 +8,8 @@ class NormalWatchScene: SKScene {
     var minuteHand:SKSpriteNode = SKSpriteNode(imageNamed: "minute.png")
     var hourHand:SKSpriteNode = SKSpriteNode(imageNamed: "heure.png")
     
+    var pearLogo:SKSpriteNode = SKSpriteNode(imageNamed: "pear.png")
+    
     override func sceneDidLoad() {
         
         backgroundImage.size = CGSize(width: size.width, height: size.height)
@@ -23,6 +25,9 @@ class NormalWatchScene: SKScene {
         hourHand.position =  CGPoint(x: size.width/2, y: size.height/2)
         addChild(hourHand)
         
+        pearLogo.size = CGSize(width: 65, height: 65)
+        pearLogo.position =  CGPoint(x: size.width/2, y: size.height * 0.75)
+        addChild(pearLogo)
         
         
     }

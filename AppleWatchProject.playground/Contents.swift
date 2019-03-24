@@ -36,7 +36,7 @@ import SpriteKit
 
 
 //Running on iPad or No
-iPadVers = false
+iPadVers = true
 
 let vc = MainViewController()
 let nav = UINavigationController(rootViewController: vc)
@@ -53,8 +53,6 @@ DispatchQueue.main.asyncAfter(deadline: .now()  + 5.0) {
     vc.checkWhatScene()
     firstBoot = false
 }
-
-DateTimeFormat.sunrise()
 
 
 
