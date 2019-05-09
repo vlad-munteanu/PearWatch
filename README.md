@@ -1,5 +1,5 @@
 # PearWatch
-My submission for WWDC Scholarship, a lightweight recreation of watchOS using Swift Playgrounds.
+My submission for WWDC Scholarship, a lightweight recreation of watchOS using Swift Playgrounds. Didn't end up getting choosen for a scholarship. 
 
 ![alt text](https://github.com/vlad-munteanu/PearWatch/blob/master/bg.png)
 
